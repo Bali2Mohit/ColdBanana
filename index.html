@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <!-- displays site properly based on user's device -->
+
+    <title>Cold Banana</title>
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- Local CSS styling -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <span class="logo">CHILLED GRAPE</span>
+
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link">Blog</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                </div>
+                <button class="login">Login</button>
+            </div>
+        </nav>
+        <!-- Hero Element -->
+        <div style="margin: 200px;">
+            <div class="title">LOREM IPSUM DOLOR SIT AMET.</div>
+            <button class="login">Read More</button>
+        </div>
+        <div class="row" style="height: 650px;">
+            <div class="col">
+                <div class="image-text">LOREM IPSUM DOLOR SIT AMET.</div>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="login">Read More</button>
+            </div>
+            <div class="col">
+                <div class="imgBg">
+                    <img src="./assets/pngwing 1.png" height="800px" style="margin-top: -180px;" />
+                </div>
+            </div>
+        </div>
+        <!-- Google Map embedded -->
+        <div id="googleMap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.8289132466593!2d-0.009552284277706635!3d51.47965462055249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760284402504ff%3A0xc27050e436485394!2s15%20Nevada%20St%2C%20London%20SE10%209JL!5e0!3m2!1sen!2suk!4v1656691011081!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h4 class="image-text">OUR LOCATIONS</h4>
+        <div id="section" class="row row-cols-2 g-4 card-deck">
+            <!-- section to show all location cards dynamically added by API call -->
+        </div>
+        <!-- Footer -->
+        <div class="footer row">
+            <div class="col-md-5 footer-col1">
+                <h4 class="footer-text">CHILLED GRAPE</h4>
+                <p style="color: #fff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="footer-items col-md-7">
+                    <ul class="footer-list">
+                        <li class="footer-title">Company</li>
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Our work</li>
+                        <li>Contact</li>
+                    </ul>
+                    <ul class="footer-list">
+                        <li class="footer-title">Products</li>
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Our work</li>
+                        <li>Contact</li>
+                    </ul>
+                <ul class="footer-list">
+                    <li class="footer-title">Follow us</li>
+                    <div style="display: flex;">
+                    <li class="brands">
+                        <img src="./assets/Brand/telegram.svg" />
+                    </li>
+                    <li class="brands">
+                        <img src="./assets/Brand/twitter.svg" />
+                    </li>
+                    <li class="brands">
+                        <img src="./assets/Brand/youtube.svg" />
+                    </li>
+                    </div>
+                    <div style="display: flex;">
+                    <li class="brands">
+                        <img src="./assets/Brand/facebook.svg" />
+                    </li>
+                     <li class="brands">
+                        <img src="./assets/Brand/instagram.svg" />
+                    </li>
+                    <li class="brands">
+                        <img src="./assets/Brand/tiktok.svg" />
+                    </li>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- Javascript added -->
+    <script src="js/locations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=googleMaps"></script> -->
+
+</body>
+</html>
